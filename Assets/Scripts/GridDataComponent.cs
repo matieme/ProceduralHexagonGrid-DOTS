@@ -4,4 +4,5 @@ using Unity.Entities;
 public struct GridDataComponent : IComponentData
 {
     public int worldHalfSize;
+    public Entity prefabToSpawn;
 }
