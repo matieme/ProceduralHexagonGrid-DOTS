@@ -1,4 +1,7 @@
-![image](https://user-images.githubusercontent.com/14026025/160664220-14376cd4-25a0-423d-a51b-8028f439d522.png)
+
+<p align="center">
+  <img width="875" height="492" src="https://user-images.githubusercontent.com/14026025/160664220-14376cd4-25a0-423d-a51b-8028f439d522.png">
+</p>
 
 ## ProceduralHexagonGrid-DOTS
 
@@ -9,8 +12,9 @@ https://user-images.githubusercontent.com/14026025/160667897-47d55d6f-666b-45b4-
 
 The parameters that edit the grid can be found in the GridManager element inside the scene:
 
-
-![image](https://user-images.githubusercontent.com/14026025/160668329-a7c2b6e2-8d53-4083-896e-f5e1e04b3a1c.png)
+<p align="center">
+  <img width="491" height="518" src="https://user-images.githubusercontent.com/14026025/160668329-a7c2b6e2-8d53-4083-896e-f5e1e04b3a1c.png">
+</p>
 
 
 ## Supported platforms, requirements and Unity versions
