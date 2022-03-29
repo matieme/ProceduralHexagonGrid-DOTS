@@ -15,8 +15,7 @@ MonoBehaviour:
   waterPrefab: {fileID: 3934789484843113862, guid: 0fc5810aba3a2d9459c59f559204510c, type: 3}
   sandPrefab: {fileID: 4489688746045170713, guid: 8ac152d59bafa55449d13514e035de42, type: 3}
   dirtPrefab: {fileID: 4452217092680812129, guid: 85bb98fbd7f537745a2fff203a16bc42, type: 3}
-  forestDirtPrefab: {fileID: 4486061409195207355, guid: 522121b5a2f3b764da949b49395488e0, type: 3}
-  forestPrefab: {fileID: 8645747426609636555, guid: 6fea284f586a9f64a9adce72b57c35ef, type: 3}
+  forestPrefab: {fileID: 4486061409195207355, guid: 522121b5a2f3b764da949b49395488e0, type: 3}
   rockPrefab: {fileID: 6378914716718022890, guid: acbf32c7f8810934c8c374cb81ed566f, type: 3}
   snowPrefab: {fileID: 3207380317314888136, guid: 48016c356590f264da17721144f76b63, type: 3}
-  worldHalfSize: 75
+  worldHalfSize: 80
