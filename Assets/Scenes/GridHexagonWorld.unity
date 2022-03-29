@@ -246,20 +246,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   worldData: {fileID: 11400000, guid: 69bded5f221fb084084c0bb03120fed9, type: 2}
-  strength: 3.89
-  scale: 0.602
-  perlinStrengthMultiplierOne: 1.9
-  perlinScaleMultiplierOne: 0.1
-  perlinStrengthMultiplierTwo: 1
-  perlinScaleMultiplierTwo: 0.1
-  perlinStrengthMultiplierThree: 1.26
-  perlinScaleMultiplierThree: 0.324
-  waterHeightLevel: 3
-  sandHeightLevel: 4
-  dirtHeightLevel: 6
-  forestHeightLevel: 10
-  rockHeightLevel: 12
-  snowHeightLevel: 14
+  strength: 5
+  scale: 0.294
+  perlinStrengthMultiplierOne: 1
+  perlinScaleMultiplierOne: 0.198
+  perlinStrengthMultiplierTwo: 0.768
+  perlinScaleMultiplierTwo: 0.207
+  perlinStrengthMultiplierThree: 1
+  perlinScaleMultiplierThree: 0.3
+  waterHeightLevel: 1.71
+  sandHeightLevel: 2.65
+  dirtHeightLevel: 4.4
+  forestHeightLevel: 6.04
+  rockHeightLevel: 7.85
+  snowHeightLevel: 10
 --- !u!4 &1549672131
 Transform:
   m_ObjectHideFlags: 0
@@ -326,7 +326,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 70
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -351,13 +351,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1841378287}
-  m_LocalRotation: {x: 0.06519347, y: 0.37785935, z: -0.026682112, w: 0.9231794}
-  m_LocalPosition: {x: -65.48376, y: 23.67803, z: -50.611813}
+  m_LocalRotation: {x: 0.06444657, y: 0.3817512, z: -0.026694642, w: 0.921629}
+  m_LocalPosition: {x: -70, y: 20, z: -55}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 8, y: 45, z: 0}
 --- !u!114 &1841378291
 MonoBehaviour:
   m_ObjectHideFlags: 0

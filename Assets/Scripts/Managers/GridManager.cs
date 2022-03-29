@@ -9,28 +9,28 @@ public class GridManager : MonoBehaviour
     [SerializeField] private WorldBaseData worldData;
     
     [Header("General Perlin Values")]
-    [Range(0.1f, 10f)] public float strength = 1f;
-    [Range(0.01f, 1f)] public float scale = 0.1f;
+    [Range(0.1f, 5f)] public float strength = 1f;
+    [Range(0.01f, 0.3f)] public float scale = 0.1f;
     
     [Header("Perlin Noise Params #1")]
-    [Range(0.1f, 10f)] public float perlinStrengthMultiplierOne = 1f;
-    [Range(0.01f, 1f)] public float perlinScaleMultiplierOne = 0.1f;
+    [Range(0.1f, 1f)] public float perlinStrengthMultiplierOne = 1f;
+    [Range(0.01f, 0.3f)] public float perlinScaleMultiplierOne = 0.1f;
 
     [Header("Perlin Noise Params #2")]
-    [Range(0.1f, 10f)] public float perlinStrengthMultiplierTwo = 1f;
-    [Range(0.01f, 1f)] public float perlinScaleMultiplierTwo = 0.1f;
+    [Range(0.1f, 1f)] public float perlinStrengthMultiplierTwo = 1f;
+    [Range(0.01f, 0.3f)] public float perlinScaleMultiplierTwo = 0.1f;
     
     [Header("Perlin Noise Params #3")]
-    [Range(0.1f, 10f)] public float perlinStrengthMultiplierThree = 1f;
-    [Range(0.1f, 1f)] public float perlinScaleMultiplierThree = 0.1f;
+    [Range(0.1f, 1f)] public float perlinStrengthMultiplierThree = 1f;
+    [Range(0.1f, 0.3f)] public float perlinScaleMultiplierThree = 0.1f;
     
     [Header("Height Values")]
-    [Range(0f, 100f)] public float waterHeightLevel = 2f;
-    [Range(0f, 100f)] public float sandHeightLevel = 4f;
-    [Range(0f, 100f)] public float dirtHeightLevel = 6f;
-    [Range(0f, 100f)] public float forestHeightLevel = 8f;
-    [Range(0f, 100f)] public float rockHeightLevel = 10f;
-    [Range(0f, 100f)] public float snowHeightLevel = 12f;
+    [Range(0f, 10f)] public float waterHeightLevel = 2f;
+    [Range(0f, 10f)] public float sandHeightLevel = 4f;
+    [Range(0f, 10f)] public float dirtHeightLevel = 6f;
+    [Range(0f, 10f)] public float forestHeightLevel = 8f;
+    [Range(0f, 10f)] public float rockHeightLevel = 10f;
+    [Range(0f, 10f)] public float snowHeightLevel = 12f;
 
     
     private Entity prefab;
