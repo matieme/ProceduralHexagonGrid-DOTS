@@ -18,6 +18,7 @@ The parameters that edit the grid can be found in the GridManager element inside
 Currently the project supports these:
 ```
 Unity: 2020.3.30f1
+DOTS: 0.50.0
 Platforms: Windows and MacOS
 ```
 
