@@ -245,8 +245,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab0aef0a7c597ed4c97735392a62289a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grassPrefab: {fileID: 4486061409195207355, guid: 522121b5a2f3b764da949b49395488e0, type: 3}
-  worldHalfSize: 50
+  worldData: {fileID: 11400000, guid: 69bded5f221fb084084c0bb03120fed9, type: 2}
+  strength: 1.7
+  scale: 0.1
+  perlinStrengthMultiplierOne: 1
+  perlinScaleMultiplierOne: 0.1
+  perlinStrengthMultiplierTwo: 1
+  perlinScaleMultiplierTwo: 0.1
+  perlinStrengthMultiplierThree: 1
+  perlinScaleMultiplierThree: 0.1
+  waterHeightLevel: 2
+  sandHeightLevel: 4
+  dirtHeightLevel: 6
+  forestDirtHeightLevel: 8
+  forestHeightLevel: 10
+  rockHeightLevel: 12
+  snowHeightLevel: 14
 --- !u!4 &1549672131
 Transform:
   m_ObjectHideFlags: 0
